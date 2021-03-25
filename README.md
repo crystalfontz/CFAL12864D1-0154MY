@@ -17,10 +17,10 @@ There are two carrier boards that can be purchased seperately if desired, the CF
 
 
 # Connection Details
-## **To CFA10098 Adapter Board (See kits above)**
+## **To CFA10105 Adapter Board (See kits above)**
 ### **SPI Configuration**
 Please note, the BS1 and BS2 jumpers should be unsoldered
-| OLED/CFA10102       | Seeeduino Pin | Connection Description            
+| OLED/CFA10105       | Seeeduino Pin | Connection Description            
 |---------------------|---------------|-----------------------------------
 | 1  VDD              | 3v3           | Power Supply for Logic Circuit
 | 2  D0               | D13           | LCD_D10 (DB0) (SCK)
@@ -41,7 +41,7 @@ Please note, the BS1 and BS2 jumpers should be unsoldered
 
 ### **Parallel Configuration**
 Please note, the BS1 and BS2 jumpers should be soldered according to the interface selected
-| OLED/CFA10102       | Seeeduino Pin | Connection Description            
+| OLED/CFA10105       | Seeeduino Pin | Connection Description            
 |---------------------|---------------|-----------------------------------
 | 1  VDD              | 3v3           | Power Supply for Logic Circuit
 | 2  D0               | D0            | LCD_D10 (DB0) 
