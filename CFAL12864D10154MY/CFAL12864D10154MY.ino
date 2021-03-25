@@ -3,14 +3,14 @@
 //
 //  CRYSTALFONTZ 
 //
-//  This code drives the CFAL12864D0-0154M-Y display
-//  https://www.crystalfontz.com/product/cfal12864d00154my
+//  This code drives the CFAL12864D1-0154MY display
+//  https://www.crystalfontz.com/product/cfal12864d10154my
 //
 //  The controller is a Solomon Systech SSD1309
 //    https://www.crystalfontz.com/controllers/SolomonSystech/SSD1309/
 //
 //  Seeeduino v4.2, an open-source 3.3v capable Arduino clone.
-//    https://www.seeedstudio.com/Seeeduino-V4.2-p-2517.html
+//    https://www.crystalfontz.com/product/cfapn15062-seeeduino-arduino-clone-microprocessor
 //    https://github.com/SeeedDocument/SeeeduinoV4/raw/master/resources/Seeeduino_v4.2_sch.pdf
 //
 //==============================================================================
@@ -82,9 +82,10 @@
 //  D7        | PORTD | 20         |                             |  N/A pull high                             
 // -----------+-------+------------+-----------------------------+--------------------------------------------
 // Consult the datasheet for more interface options
+// Refer to the readme for information about interfacing with the CFA10105
 //==============================================================================
 //
-//  There are additional components that should be soldered prior to soldering.
+//  There are additional components that should be soldered prior to powering.
 //  Please consult the datasheet for these components. Alternatively, there is a 
 //  breakout board available for sale here: https://www.crystalfontz.com/product/cfa10105
 //
